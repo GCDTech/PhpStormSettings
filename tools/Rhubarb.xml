@@ -1,0 +1,9 @@
+<toolSet name="Rhubarb">
+  <tool name="Leaf" description="Creates a set of leaf classes" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$/vendor/rhubarbphp/custard/bin/custard" />
+      <option name="PARAMETERS" value="leaf:create-leaf $Prompt$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
